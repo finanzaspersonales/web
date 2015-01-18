@@ -475,3 +475,86 @@ height: 100%;
 @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
 .flex-video { padding-top: 0; }
 }
+
+
+hr.money-light,
+hr.money-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.money-light:after,
+hr.money-primary:after {
+    content: "\f0d6";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.money-light {
+    border-color: #fff;
+}
+
+hr.money-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.money-primary {
+    border-color: #2c3e50;
+}
+
+hr.money-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+
+
+
+
+hr.heart-light,
+hr.heart-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.heart-light:after,
+hr.heart-primary:after {
+    content: "\f004";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.heart-light {
+    border-color: #fff;
+}
+
+hr.heart-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.heart-primary {
+    border-color: #2c3e50;
+}
+
+hr.heart-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
