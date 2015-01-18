@@ -16,7 +16,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//lazaro.inf.uct.cl/finanzas/save_mail.php",
+                url: "//lazaro.inf.uct.cl/~joariasl/finanzas/save_mail.php",
                 type: "POST",
                 data: {
                     email: email
