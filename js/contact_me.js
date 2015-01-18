@@ -18,13 +18,11 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "//lazaro.inf.uct.cl/finanzas/save_mail.php",
                 type: "POST",
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    email: email
+                    //message: message
                 },
                 cache: false,
                 success: function() {
